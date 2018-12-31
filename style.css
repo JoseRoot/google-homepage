@@ -1,0 +1,54 @@
+html, 
+body {
+    height: 100%;
+}
+.input-text{
+
+}
+.navigation{
+    list-style-type: none;
+    margin: 10px 20px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    padding-top: 15px;
+    padding-right: 10px;
+    background-color: #FFFFFF;
+    font-size:14px;
+
+}
+.navigation li {
+    display: inline;
+}
+.navigation li a{
+    padding-top: 40px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.87);
+}
+.navigation li a:hover{
+    text-decoration: underline;
+    color:rgba(58, 56, 56, 0.87);
+    text-decoration-color: rgba(0, 0, 0, 0.87);
+}
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height: 60%;
+    text-align: center
+}
+.logo{
+    width: 272px;
+    height: 93px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container input[type='text']{
+    width: 520px;
+    height: 34px;
+}
