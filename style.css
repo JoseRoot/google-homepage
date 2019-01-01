@@ -2,13 +2,21 @@ html,
 body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
 }
-.input-text{
+.search{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 2px;
+    width:500px;
+    margin: 0 auto;
+}
+.input-text1{
+    border: none;
 
 }
 .navigation{
     list-style-type: none;
-    margin: 10px 20px;
+    margin: 0px 20px;
     padding: 0;
     display: flex;
     justify-content: flex-end;
@@ -48,11 +56,17 @@ body {
     height: 93px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
 }
 .container input[type='text']{
-    width: 520px;
-    height: 34px;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    padding-left: 20px;
+}
+.container input[type="text"]:hover{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 .botones{
     height: 58px;
@@ -68,19 +82,36 @@ body {
     border: 1px solid #f2f2f2;
     color:#757575;
 }
+.botones [type="submit"]:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
 .footer-top{
     position: absolute;
-    bottom: 34px;
+    bottom: 41px;
     width: 100%;
     padding-left: 27px;
     padding-bottom: 4px;
+    height: 41px;
+    line-height: 40px;
     font-size: 15px;
+    background-color: #f2f2f2;
+    color:rgba(0,0,0,.54);
+    border-top: 1px solid #e4e4e4;
 }
 .footer-bottom{
     position:absolute;
     bottom:0;
     width: 100%;
     font-size: 15px;
+    background-color: #f2f2f2;
+    color:rgba(0,0,0,.54);
+    height: 41px;
+    line-height: 41px;
+    font-size: small;
+    border-top: 1px solid #e4e4e4;
 }
 .left{
     float: left;
@@ -94,7 +125,7 @@ body {
 
 .footer-bottom ul li{
       display: inline-block; 
-      padding-bottom: 8px;
+      
 }
 
 .nav-img{
@@ -119,4 +150,12 @@ body {
 }
 .two-last{
     padding-left: 15px;
+}
+.search-img{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    right: 45px;
 }
