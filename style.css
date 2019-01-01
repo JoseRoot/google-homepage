@@ -95,6 +95,28 @@ body {
 .footer-bottom ul li{
       display: inline-block; 
       padding-bottom: 8px;
+}
 
-
+.nav-img{
+    height: 14px;
+    position: relative;
+    top: 2px;
+}
+.bell{
+    color: #757575
+}
+.bell:hover{
+    color:rgba(58, 56, 56, 0.87);
+}
+.avatar{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 7px;
+}
+.last-text{
+    padding-right: 15px;
+}
+.two-last{
+    padding-left: 15px;
 }
